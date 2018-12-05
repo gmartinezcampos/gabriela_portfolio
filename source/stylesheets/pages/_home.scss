@@ -1,17 +1,83 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
+.homepage {
+  background-color: $off-white;
+  margin-top: 1px;
+}
+
+.project-cards-top {
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+  // margin: 20px 20px auto;
+}
+
+.row-one {
+  display: flex;
+  margin-top: 20px;
+}
+
+.ports-card {
+  height: 60vh;
+  background-color: red;
+  width: 45vw;
+}
+
+.kibble-card {
+  background: blue;
+  width: 18vw;
+  margin-left: 20px;
+}
+
+.rikoko-card {
+  background: green;
+  width: 18vw;
+  margin-left: 20px;
+}
+
+.project-cards-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 20px auto;
+}
+
+.bottom-half {
+  display: flex;
+  width: 1312.68px;
+}
+
+.left-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.idk-card {
+  height: 90vh;
+  background-color: purple;
+  width: 45vw;
+}
+
+.labelm-card {
+  height: 40vh;
+  background-color: yellow;
+  width: 45vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.right-cards {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.stationary-card{
+  height: 55vh;
+  background-color: gray;
+  width: 37.5vw;
+}
+
+.wholesale-card {
+  height: 75vh;
+  background-color: blue;
+  width: 37.5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
